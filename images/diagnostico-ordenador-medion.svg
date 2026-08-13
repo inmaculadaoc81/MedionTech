@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#f2f5f8"/>
+  <circle cx="250" cy="640" r="240" fill="#e6edf5"/>
+  <!-- desktop tower + monitor -->
+  <g>
+    <rect x="440" y="240" width="320" height="220" rx="16" fill="#12181f"/>
+    <rect x="460" y="258" width="280" height="180" rx="8" fill="#0a2a4a"/>
+    <rect x="480" y="280" width="90" height="70" rx="8" fill="#12181f"/>
+    <path d="M540 300 h60 v26 h40" fill="none" stroke="#0072ce" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="640" cy="326" r="7" fill="#0072ce"/>
+    <circle cx="680" cy="326" r="7" fill="#2f9bf0"/>
+    <rect x="580" y="460" width="80" height="30" fill="#12181f"/>
+    <rect x="540" y="486" width="160" height="14" rx="7" fill="#1b2733"/>
+  </g>
+  <!-- magnifier -->
+  <g transform="translate(700,470)">
+    <circle cx="0" cy="0" r="80" fill="#ffffff" fill-opacity="0.4" stroke="#00509e" stroke-width="14"/>
+    <line x1="55" y1="55" x2="130" y2="130" stroke="#00509e" stroke-width="20" stroke-linecap="round"/>
+  </g>
+  <!-- gauge -->
+  <g transform="translate(950,260)">
+    <circle cx="0" cy="0" r="60" fill="#ffffff" stroke="#12181f" stroke-width="6"/>
+    <path d="M0 0 L28 -32" stroke="#0072ce" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="6" fill="#12181f"/>
+  </g>
+  <text x="600" y="700" font-family="Arial, sans-serif" font-size="34" fill="#56636f" text-anchor="middle">Diagnóstico gratuito</text>
+</svg>
