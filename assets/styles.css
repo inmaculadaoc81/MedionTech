@@ -21,7 +21,8 @@ a{text-decoration:none;color:inherit}
 .header{position:sticky;top:0;z-index:9000;background:#0b2b4a;border-bottom:1px solid rgba(255,255,255,.08)}
 .nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:24px}
 .logo{height:44px;max-width:285px;object-fit:contain}
-.links{display:flex;gap:22px;align-items:center;color:#fff;font-size:14px;font-weight:850}
+.links{display:flex;gap:16px;align-items:center;color:#fff;font-size:13px;font-weight:850}
+.links a{white-space:nowrap}
 .links a:hover{color:#9dcbf0}
 .navcall{padding:11px 16px;border-radius:999px;background:#fff;color:#0b2b4a!important}
 .menu-btn{display:none;border:1px solid rgba(255,255,255,.25);background:transparent;color:#fff;border-radius:11px;padding:10px 14px;font-weight:900;font:inherit;cursor:pointer}
@@ -185,3 +186,9 @@ footer{background:#0b2b4a;color:#fff;padding:34px 0}
   #n8n-chat .chat-window-toggle,#n8n-chat [class*="chat-window-toggle"]{right:16px!important;bottom:96px!important}
   #n8n-chat .chat-window:not([class*="toggle"]),#n8n-chat [class*="chat-window"]:not([class*="toggle"]){left:12px!important;right:12px!important;width:auto!important;bottom:166px!important}
 }
+
+/* SEO content section */
+.seo-content{background:#fff}
+.seo-text{max-width:900px;margin-top:18px;display:grid;gap:16px}
+.seo-text p{color:var(--muted);font-size:16px;line-height:1.7;margin:0}
+.seo-text small{color:#8a97a8}
