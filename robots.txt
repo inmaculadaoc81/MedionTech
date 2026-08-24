@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://123pcsolutions.com.es/sitemap.xml
