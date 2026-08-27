@@ -1,7 +1,13 @@
 MedionTech ONE PAGE
 
 Dominio:
-https://123pcsolutions.com.es/
+https://informaticoschamberi.com.es/
+
+(Antes tenía https://123pcsolutions.com.es/, dominio duplicado con
+ToshibaTech de la misma familia. Confirmado por el cliente: el dominio
+real de MedionTech es informaticoschamberi.com.es. Aplicado en
+canonical, og:url, JSON-LD, robots.txt y sitemap.xml. ToshibaTech
+mantiene 123pcsolutions.com.es.)
 
 Teléfono SOLO en caja de información:
 +34 910 05 36 51
