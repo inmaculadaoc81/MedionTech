@@ -62,3 +62,32 @@ Este sitio era antes multipágina (tenía /servicios/... y /modelos/...,
 eliminados en commits anteriores al pasar a one-page). Añadido
 middleware.mjs: cualquier URL que no sea "/" redirige (301) a la home.
 Añadida la dependencia "@vercel/functions" en package.json.
+
+REVISIÓN ADICIONAL (a petición del cliente):
+1. H1 no seguía la regla final de la familia: era largo (23 palabras)
+   y terminaba en planteamiento abierto ("y cuándo podrás volver a
+   usarlo"). Reescrito: "Tu Medion no funciona. Aquí lo revisamos y lo
+   reparamos." (9 palabras, afirmativo).
+2. La tarjeta azul de la sección "Sobre Medion" (.hardware-art) tenía
+   como marca de agua decorativa el texto "HARDWARE", que en móvil se
+   veía enorme y cortado (solo se leía "HARD"). Sustituido por
+   "MEDION" (el nombre del producto, como pediste) y añadida una
+   reducción de tamaño específica en los breakpoints de tablet (60px)
+   y móvil (48px), que antes no existía — antes el texto se quedaba
+   siempre a 82px sin importar el ancho de pantalla.
+3. Añadido "Sábados, domingos y días festivos estamos cerrados" debajo
+   del horario en la caja de información.
+4. Añadida una franja de aviso ("Somos un servicio técnico
+   independiente. No vemos equipos en garantía.") justo debajo de la
+   barra de menú, antes del hero.
+5. Formulario de contacto verificado: el fetch de index.html apunta a
+   /api/contacto, los nombres de campo (nombre/telefono/email/equipo/
+   mensaje) coinciden exactamente entre el HTML y lo que valida
+   api/contacto.js, la API usa SMTP + nodemailer correctamente y
+   package.json/vercel.json están bien configurados. Conexión
+   correcta de principio a fin (solo falta que las variables SMTP_*
+   estén configuradas en Vercel, como en el resto de la familia). De
+   paso se corrigió un resto del dominio antiguo: el asunto del correo
+   decía "...123pcsolutions.com.es" (el dominio de antes de la
+   corrección aplicada hoy); actualizado a
+   "...informaticoschamberi.com.es".

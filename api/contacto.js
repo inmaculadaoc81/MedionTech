@@ -55,7 +55,7 @@ module.exports=async(req,res)=>{
       from:`"MedionTech" <${process.env.SMTP_USER}>`,
       to:process.env.CONTACT_EMAIL||process.env.SMTP_USER,
       replyTo:email,
-      subject:"Nueva consulta MedionTech - 123pcsolutions.com.es",
+      subject:"Nueva consulta MedionTech - informaticoschamberi.com.es",
       text:`Nueva consulta MedionTech
 
 Nombre: ${nombre}

@@ -19,6 +19,7 @@ a{text-decoration:none;color:inherit}
 
 /* Header */
 .header{position:sticky;top:0;z-index:9000;background:#0b2b4a;border-bottom:1px solid rgba(255,255,255,.08)}
+.disclaimer-bar{background:#f4b400;color:#0c1a27;text-align:center;font-size:12.5px;font-weight:800;padding:8px 16px}
 .nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:24px}
 .logo{height:44px;max-width:285px;object-fit:contain}
 .links{display:flex;gap:16px;align-items:center;color:#fff;font-size:13px;font-weight:850}
@@ -102,7 +103,7 @@ section{padding:82px 0}
 .hardware-grid{display:grid;grid-template-columns:.92fr 1.08fr;gap:54px;align-items:center}
 .hardware-art{min-height:390px;border-radius:36px;background:linear-gradient(145deg,#2d75b8,#0b2b4a);position:relative;overflow:hidden}
 .hardware-art::before{
-  content:"HARDWARE";position:absolute;left:24px;top:28px;
+  content:"MEDION";position:absolute;left:24px;top:28px;
   font-size:82px;font-weight:950;color:transparent;
   -webkit-text-stroke:2px rgba(255,255,255,.27);
   transform:rotate(-5deg)
@@ -169,6 +170,7 @@ footer{background:#0b2b4a;color:#fff;padding:34px 0}
   .links{display:none;position:absolute;left:0;right:0;top:78px;background:#0b2b4a;padding:18px 20px 22px;flex-direction:column;align-items:flex-start;border-top:1px solid rgba(255,255,255,.1)}
   .links.open{display:flex}
   .hero-grid,.hardware-grid,.contact-grid,.pickup-panel{grid-template-columns:1fr}
+  .hardware-art::before{font-size:60px}
   .problem-grid{grid-template-columns:repeat(2,1fr)}
   .steps-grid{grid-template-columns:repeat(2,1fr)}
   .trust-grid{grid-template-columns:1fr}
@@ -180,6 +182,7 @@ footer{background:#0b2b4a;color:#fff;padding:34px 0}
   .problem-grid,.steps-grid,.ctas,form{grid-template-columns:1fr}
   .phone,.full{grid-column:auto}
   .hero::after,.hero-chip{display:none}
+  .hardware-art::before{font-size:48px;left:16px;top:18px}
   .cal-frame{height:760px}
   .footer{flex-direction:column;align-items:flex-start}
   .float-wa{right:16px!important;bottom:18px!important}
