@@ -116,3 +116,10 @@ REVISIÓN ADICIONAL 4 (a petición del cliente — diversidad de H1):
   entre sitios. Reescrito con síntoma específico y estructura
   distinta: "Tu Medion no enciende o va muy lento. Te ayudamos."
   (10 palabras).
+
+REVISIÓN ADICIONAL (a petición del cliente, regla general de la familia):
+- Quitada la pestaña/etiqueta rotada del hero (.hero-chip o
+  .hero-tag) que sobresalía y se solapaba visualmente con la caja de
+  información en anchos de tablet/escritorio medio (detectado con
+  captura en vivo en AcerTech). Regla para toda la familia: no volver
+  a añadir este tipo de elemento decorativo.
