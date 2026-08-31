@@ -108,3 +108,11 @@ REVISIÓN ADICIONAL 3 (a petición del cliente):
   visualmente no se distinguía del texto (a{color:inherit} global).
   Añadida la clase .privacy-link con color:var(--blue) y subrayado
   para que se vea claramente como enlace.
+
+REVISIÓN ADICIONAL 4 (a petición del cliente — diversidad de H1):
+- El H1 repetía la plantilla "Tu [Marca] no funciona. Aquí lo
+  revisamos y lo reparamos." usada en varios repos de la familia
+  (MSI, Surface, Asus, Bosch), generando titulares casi idénticos
+  entre sitios. Reescrito con síntoma específico y estructura
+  distinta: "Tu Medion no enciende o va muy lento. Te ayudamos."
+  (10 palabras).
