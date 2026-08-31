@@ -102,3 +102,9 @@ REVISIÓN ADICIONAL 2 (a petición del cliente):
    diferencia del botón de WhatsApp de al lado. Añadido el icono de
    teléfono (mismo SVG usado en otros repos de la familia), usando la
    regla .cta svg ya existente.
+
+REVISIÓN ADICIONAL 3 (a petición del cliente):
+- El enlace de "política de privacidad" ya estaba bien enlazado, pero
+  visualmente no se distinguía del texto (a{color:inherit} global).
+  Añadida la clase .privacy-link con color:var(--blue) y subrayado
+  para que se vea claramente como enlace.
