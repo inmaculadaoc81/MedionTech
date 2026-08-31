@@ -91,3 +91,14 @@ REVISIÓN ADICIONAL (a petición del cliente):
    decía "...123pcsolutions.com.es" (el dominio de antes de la
    corrección aplicada hoy); actualizado a
    "...informaticoschamberi.com.es".
+
+REVISIÓN ADICIONAL 2 (a petición del cliente):
+6. La casilla del formulario "Acepto la política de privacidad" no
+   tenía ningún enlace. Añadido, apuntando a
+   https://kelatos.com/privacy-policy/ (mismo texto/enlace exigido
+   ahora como estándar para toda la familia — aplicar en el resto de
+   repos que se procesen a partir de ahora).
+7. El botón "Atención Telefónica 24 horas 365 días" no tenía icono, a
+   diferencia del botón de WhatsApp de al lado. Añadido el icono de
+   teléfono (mismo SVG usado en otros repos de la familia), usando la
+   regla .cta svg ya existente.
