@@ -67,7 +67,9 @@ a{text-decoration:none;color:inherit}
 h1{font-size:clamp(38px,4.4vw,58px);line-height:1.02;letter-spacing:-2.25px;margin:0 0 24px;max-width:810px}
 .accent{color:var(--blue)}
 .ctas{display:grid;grid-template-columns:1.18fr .82fr;gap:11px;max-width:790px;margin-top:25px}
-.cta{min-height:62px;display:flex;align-items:center;justify-content:center;text-align:center;padding:13px 17px;border-radius:16px;font-weight:900}
+.cta{min-height:62px;display:flex;align-items:center;justify-content:center;text-align:center;padding:13px 17px;border-radius:999px;font-weight:900;transition:filter .15s ease,background .15s ease,color .15s ease}
+.wa:hover,.pickup:hover{filter:brightness(.88)}
+.phone:hover{background:var(--navy);color:#fff}
 .cta svg{width:22px;height:22px;margin-right:8px;flex:0 0 22px}
 .wa{background:var(--green);color:#fff}
 .pickup{background:var(--blue);color:#fff}
@@ -179,7 +181,7 @@ footer{background:#0b2b4a;color:#fff;padding:34px 0}
 @media(max-width:600px){
   .wrap{width:min(100% - 28px,1180px)}
   .hero{padding-top:46px}
-  h1{font-size:40px;letter-spacing:-1.5px}
+  h1{font-size:48px;letter-spacing:-1.5px}
   .problem-grid,.steps-grid,.ctas,form{grid-template-columns:1fr}
   .phone,.full{grid-column:auto}
   .hero::after,.hero-chip{display:none}
