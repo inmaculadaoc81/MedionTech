@@ -152,3 +152,20 @@ REVISIÓN ADICIONAL (nueva regla de menú móvil, a petición del cliente):
   mantenía fijo/pegado arriba al hacer scroll; no requería cambios.
 - Verificado de nuevo: el checklist de 7 puntos ya estaba aplicado de
   una pasada anterior; no requería cambios.
+
+CORRECCIÓN DE DOMINIO (confirmado por el cliente):
+- BUG REAL — el dominio real de MedionTech es 123pcsolutions.com.es
+  (confirmado directamente por el cliente), NO informaticoschamberi.com.es
+  como indicaba una corrección anterior de este mismo README. Verificado
+  en vivo que informaticoschamberi.com.es ni siquiera apunta a este
+  proyecto: es un sitio WordPress ajeno, sin relación con la familia
+  Kelatos ("Reparación de ordenadores Dynabook", con plugins típicos de
+  WordPress). El despliegue real de MedionTech en Vercel se sirve desde
+  123pcsolutions.com.es.
+- Corregido a 123pcsolutions.com.es en canonical, og:url, JSON-LD
+  (campo "url"), sitemap.xml y robots.txt.
+- PENDIENTE — este dominio (123pcsolutions.com.es) también está escrito
+  en el código de ToshibaTech como si fuera suyo (mismo repositorio de
+  la familia); ambos no pueden compartirlo. Falta que el cliente
+  confirme el dominio real de ToshibaTech para corregirlo también ahí
+  y evitar el conflicto.
