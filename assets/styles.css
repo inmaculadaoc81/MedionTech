@@ -71,7 +71,7 @@ h1{font-size:clamp(38px,4.4vw,58px);line-height:1.02;letter-spacing:-2.25px;marg
 .wa:hover,.pickup:hover{filter:brightness(.88)}
 .phone:hover{background:var(--navy);color:#fff}
 .cta svg{width:22px;height:22px;margin-right:8px;flex:0 0 22px}
-.wa{background:var(--green);color:#fff}.quote{background:#17a398;color:#fff}
+.wa{background:var(--green);color:#fff}.quote{background:#17a398;color:#fff;grid-column:1/-1}
 .pickup{background:var(--blue);color:#fff}
 .phone{grid-column:1/-1;border:2px solid var(--navy);background:#fff;color:var(--navy)}
 
@@ -198,3 +198,4 @@ footer{background:#0b2b4a;color:#fff;padding:34px 0}
 .seo-text{max-width:900px;margin-top:18px;display:grid;gap:16px}
 .seo-text p{color:var(--muted);font-size:16px;line-height:1.7;margin:0}
 .seo-text small{color:#8a97a8}
+.quote:hover{filter:brightness(.88)}
