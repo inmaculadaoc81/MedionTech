@@ -184,4 +184,3 @@ BLOG (/blog):
   de URLs antiguas a la home ya no afecta a /blog.
 - Estilos del blog en assets/blog.css. Enlace «Blog» añadido al menú (sirve
   también para el menú móvil) y al pie.
-- Esta web no anuncia diagnóstico gratuito: el blog tampoco lo dice.
