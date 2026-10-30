@@ -169,3 +169,19 @@ CORRECCIÓN DE DOMINIO (confirmado por el cliente):
   la familia); ambos no pueden compartirlo. Falta que el cliente
   confirme el dominio real de ToshibaTech para corregirlo también ahí
   y evitar el conflicto.
+
+BLOG (/blog):
+- Los artículos NO viven en este repositorio: los genera y aprueba el agente
+  SEO de Kelatos (Agentes V2 → organización «MedionTech», clave mediontech) y
+  se leen en vivo de la API pública de Kelatos, sin token:
+  https://db.affirmatechnology.com/kelatos-api/publico/blog?org=mediontech
+- api/blog.js + lib/blog.js generan /blog y /blog/<slug> en el servidor
+  (HTML completo para Google); copian de index.html la cabecera, el aviso de
+  independencia, el pie, el botón de WhatsApp, las cookies y Analytics.
+- api/sitemap.js genera /sitemap.xml con la home, /blog y cada artículo
+  publicado (se eliminó el sitemap.xml estático).
+- vercel.json: rewrites de /blog, /blog/<slug> y /sitemap.xml; la redirección
+  de URLs antiguas a la home ya no afecta a /blog.
+- Estilos del blog en assets/blog.css. Enlace «Blog» añadido al menú (sirve
+  también para el menú móvil) y al pie.
+- Esta web no anuncia diagnóstico gratuito: el blog tampoco lo dice.
